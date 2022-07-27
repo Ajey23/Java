@@ -23,5 +23,13 @@ class Underflow
 
         System.out.println("Busted MAX Value = " +(myMaxByteValue + 1));     //Adding +1 to maximum Byte value (OVERFLOW)
         System.out.println("Busted MIN Value = " +(myMinByteValue - 1));     //Subtracting -1 to minimum Byte value  (UNDERFLOW)
+
+        //FLOAT
+        float myMinFloatValue = Float.MIN_VALUE;
+        float myMaxFloatValue = Float.MAX_VALUE;
+
+        System.out.println("Float Minimum Value = " +myMinFloatValue);
+        System.out.println("Float Maximum Vlaue = " +myMaxFloatValue);
+
     }
 }
